@@ -22,8 +22,8 @@ let speed = neww - old
 let info = `
 ╠═〘 INFO 𝐃𝐄L 𝐁𝐎T 〙 ═
 ╠
-╠➥ [🤴🏻] CREADOR: *𝓡𝓮𝔂 𝓔𝓷𝓭𝔂𝓶𝓲𝓸𝓷*
-╠➥ [#️⃣] No. DEL CREADOR: *wa.me/5215517489568*
+╠➥ [🤴🏻] CREADOR: *JEIRONY*
+╠➥ [#️⃣] No. DEL CREADOR: *wa.me/573152139466*
 ╠➥ [🎳] PREFIJO: *${usedPrefix}*
 ╠➥ [🔐] CHATS PRIVADOS: *${chats.length - groups.length}*
 ╠➥ [🦜] CHATS DE GRUPOS: *${groups.length}* 
@@ -36,7 +36,7 @@ let info = `
 ╠➥ [☑️] AUTOREAD: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
 ╠➥ [❗] RESTRICT: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
 ╠
-╠═〘 *🌎ANI MX SCANS🌏* 〙 ═
+╠═〘 *JEIRONY* 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
