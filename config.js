@@ -5,10 +5,8 @@ import fs from 'fs'
 
 
 global.owner = [
-   ['5215517489568','𝓢𝓾𝓹𝓻𝓮𝓶𝓮 𝓔𝓷𝓭𝔂𝓶𝓲𝓸𝓷 - Creador 👁️', true],
-  ['5215535705067', '🤖 👺👍 Bot Comedia 🤖', true],
-  ['5215533827255', '𝓡𝓮𝔂 𝓔𝓷𝓭𝔂𝓶𝓲𝓸𝓷 - Creador 👑', true],
-  ['5215561717728', 'ANI MX SCANS - BOT DE PROMOCIÓN 🌎', true]
+   ['573152139466','JEIRONY', true],
+  ['1(709)9842075', 'BOT', true]
 ] // Cambia los numeros que quieras
 global.mods = [] 
 global.prems = [] 
@@ -66,10 +64,10 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★ANI MX SCANS★'
+global.author = '★JEIRONY★'
 
-global.wm = '★ANI MX SCANS★'
-global.igfg = '★ANI MX SCANS★'
+global.wm = '★JEIRONY★'
+global.igfg = '★JEIRONY★'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
