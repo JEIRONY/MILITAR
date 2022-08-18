@@ -14,7 +14,7 @@ if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
 if (m.text.includes(linkThisGroup)) return !0
 }    
-await conn.sendButton(m.chat, `*「 ANTI LINKS 」*\n*HASTA LA VISTA BABY 👋, ${await this.getName(m.sender)} ROMPISTE LAS REGLAS DEL GRUPO, SERAS EXTERMINADO...!!*${isBotAdmin ? '' : '\n\n*[❗INFO❗] EL BOT NO ES ADMIN, NO PUEDE EXTERMINAR A LAS PERSONAS*'}`, author, ['DESACTIVAR ANTILINKS', '/disable antilink'], m)    
+await conn.sendButton(m.chat, `*「 ANTI LINKS 」*\n*ADIOS CAMPEON 👋, ${await this.getName(m.sender)} ACABAS DE ENVIAR UN LINK NO AUTORIZADO *${isBotAdmin ? '' : '\n\n*[❗INFO❗] EL BOT NO ES ADMIN, NO PUEDE ELIMINAR A LAS PERSONAS*'}`, author, ['DESACTIVAR ANTILINKS', '/disable antilink'], m)    
 if (isBotAdmin && bot.restrict) {
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!bot.restrict) return m.reply('*[❗INFO❗] EL PROPIETARIO DEL BOT NO TIENE HABILITADO LAS RESTRICCIONES (#_enable restrict_) CONTACTE CON EL PARA QUE LO HABILITE*')
