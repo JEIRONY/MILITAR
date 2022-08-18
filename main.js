@@ -79,8 +79,8 @@ function clearTmp() {
   })
 }
 
-Connection.conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ BIENVENIDO/A* \n*║*\n*╟❧ LEE LA DESC DEL GRUPO!*\n*║*\n*❧ DISFRUTA TU ESTADIA!!*\n*╚════════════*'
-Connection.conn.bye = '╔══════════════*\n*║〘 *ADIÓS* 〙*\n*╠══════════════*\n║*_☠ Se fue @user_*\n║*_Si no regresa..._*\n║ *_Nadie l@ va a extrañar 😇👍🏼_*\n*╚══════════════*'
+Connection.conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ BIENVENIDO* \n*║*\n*╟❧ LEE LA DESCRIPCION DEL GRUPO*\n*║*\n*❧ SI NECESITAS AYUDA EN ALGO CONTACTAME*\n*╚════════════*'
+Connection.conn.bye = '╔══════════════*\n*║〘 *ADIÓS* 〙*\n*╠══════════════*\n║*_☠ SE NOS VA UN GUERRERO @user_*\n║*_Si no regresa..._*\n║ *PERO NOS QUEDA SUS RECUERDOS *\n*╚══════════════*'
 Connection.conn.spromote = '*@user SE SUMA AL GRUPO DE ADMINS!!*'
 Connection.conn.sdemote = '*@user ABANDONA EL GRUPO DE ADMINS !!*'
 Connection.conn.sSubject = '*SE HA MODIFICADO EL NOMBRE DEL GRUPO*\n*NUEVO NOMBRE:* @subject'
